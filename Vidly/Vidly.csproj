@@ -217,6 +217,14 @@
     <Compile Include="Migrations\201806132124211_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201806132124211_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806160433568_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201806160433568_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201806160433568_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806160434340_UpdateRecordsInDatabase.cs" />
+    <Compile Include="Migrations\201806160434340_UpdateRecordsInDatabase.Designer.cs">
+      <DependentUpon>201806160434340_UpdateRecordsInDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -324,6 +332,12 @@
     <EmbeddedResource Include="Migrations\201806132124211_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201806132124211_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806160433568_AddNameToMembershipType.resx">
+      <DependentUpon>201806160433568_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806160434340_UpdateRecordsInDatabase.resx">
+      <DependentUpon>201806160434340_UpdateRecordsInDatabase.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -339,7 +353,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50546</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
